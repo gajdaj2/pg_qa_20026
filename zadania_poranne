@@ -1,0 +1,29 @@
+Zadanie 1: Zmienne i print
+Stwórz zmienną miasto z nazwą twojego miasta i zmienną rok z rokiem urodzenia. Wypisz je w jednej linii w formacie: "Mieszkam w [miasto], urodziłem się w [rok]"
+
+Zadanie 2: Typy danych
+Sprawdź i wypisz typ zmiennej dla liczby 123 oraz liczby 123.0
+
+Zadanie 3: Dzielenie całkowite
+Masz 47 cukierków i 6 osób. Ile cukierków dostanie każda osoba (bez reszty)?
+
+Zadanie 4: Formatowanie f-string
+Stwórz zmienne: produkt = "mleko" i cena = 4.50. Wypisz: "Produkt mleko kosztuje 4.5 zł" używając f-stringa
+
+Zadanie 5: Operacje na stringach
+Dla tekstu "PYTHON" wypisz go małymi literami i sprawdź, czy zaczyna się od "PY"
+
+Zadanie 6: Slicing
+Z tekstu "Programowanie" wytnij i wypisz tylko słowo "gram" (indeksy 3-7)
+
+Zadanie 7: Długość i powtarzanie
+Stwórz string składający się z 15 gwiazdek * i wypisz jego długość
+
+Zadanie 8: Replace
+Masz tekst: "Lubię Javę". Zamień "Javę" na "Pythona" i wypisz wynik
+
+Zadanie 9: Warunek if-else
+Napisz program, który dla zmiennej wiek = 16 sprawdzi, czy osoba jest pełnoletnia (>=18) i wypisze odpowiedni komunikat
+
+Zadanie 10: Operacje matematyczne
+Oblicz i wypisz wynik: 0.1 + 0.2 zaokrąglony do 1 miejsca po przecinku
