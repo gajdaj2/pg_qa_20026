@@ -584,22 +584,118 @@ print(temp.celsius)      # 30.0
 # temp.celsius = -300  # ValueError
 ```
 
-Zadanie 1 - Powitanie
+## Wskazówki 
+- Używajcie `input()` do pobierania danych od użytkownika
+- Pamiętajcir o konwersji typów: `int()` dla liczb całkowitych, `float()` dla dziesiętnych
+- Używajcie `print()` do wyświetlania wyników
+- Sprawdzaj działanie programu krok po kroku (debuger)
+
+
+## Zadanie 1 - Powitanie
 Napisz program, który poprosi użytkownika o imię, a następnie wyświetli spersonalizowane powitanie.
-Zadanie 2 - Kalkulator BMI
-Stwórz program obliczający wskaźnik BMI (Body Mass Index). Program powinien poprosić o wzrost (w metrach) i wagę (w kilogramach), obliczyć BMI według wzoru: waga / (wzrost²) i wyświetlić wynik.
-Zadanie 3 - Sprawdzanie parzystości
+
+**Przykład:**
+```
+Jak masz na imię? Jan
+Witaj, Jan! Miło Cię poznać!
+```
+
+---
+## Zadanie 2 - Sprawdzanie parzystości
 Napisz funkcję, która przyjmuje liczbę całkowitą i zwraca informację, czy jest ona parzysta czy nieparzysta.
-Zadanie 4 - Odwracanie tekstu
-Stwórz program, który przyjmuje od użytkownika ciąg znaków i wyświetla go w odwrotnej kolejności.
-Zadanie 5 - Suma liczb z listy
-Napisz funkcję, która przyjmuje listę liczb i zwraca ich sumę (bez używania wbudowanej funkcji sum()).
-Zadanie 6 - Liczby pierwsze
-Napisz funkcję sprawdzającą, czy podana liczba jest liczbą pierwszą.
-Zadanie 7 - Zliczanie samogłosek
+
+**Przykład:**
+```python
+sprawdz_parzystosc(4)  # "Liczba 4 jest parzysta"
+sprawdz_parzystosc(7)  # "Liczba 7 jest nieparzysta"
+```
+---
+
+## Zadanie 3 - Suma liczb z listy
+Napisz funkcję, która przyjmuje listę liczb i zwraca ich sumę (bez używania wbudowanej funkcji `sum()`).
+
+**Przykład:**
+```python
+suma_listy([1, 2, 3, 4, 5])  # Wynik: 15
+suma_listy([10, 20, 30])     # Wynik: 60
+```
+---
+
+## Zadanie 4 - Zliczanie samogłosek
 Stwórz program, który policzy ile samogłosek (a, e, i, o, u, y) znajduje się w podanym przez użytkownika tekście.
-Zadanie 8 - Lista zakupów
-Napisz program, który pozwoli użytkownikowi tworzyć listę zakupów. Program powinien umożliwiać dodawanie produktów, wyświetlanie całej listy i usuwanie produktów.
-Zadanie 9 - Zgadywanka liczb
+
+**Przykład:**
+```
+Podaj tekst: Programowanie w Pythonie
+Liczba samogłosek: 10
+```
+---
+
+## Zadanie 5 - Zgadywanka liczb
 Stwórz grę, w której komputer losuje liczbę od 1 do 100, a użytkownik próbuje ją odgadnąć. Po każdej próbie program powinien informować, czy podana liczba jest za duża, za mała, czy prawidłowa.
+
+**Przykład:**
+```
+Zgadnij liczbę od 1 do 100: 50
+Za mało!
+Zgadnij liczbę od 1 do 100: 75
+Za dużo!
+Zgadnij liczbę od 1 do 100: 63
+Gratulacje! Odgadłeś za 3 próby!
+```
+---
+
+## Zadanie 6 - Proste działania matematyczne
+Stwórz zmienne `a = 10` i `b = 5`. Wyświetl wyniki następujących operacji:
+- Dodawanie
+- Odejmowanie
+- Mnożenie
+- Dzielenie
+
+---
+
+## Zadanie 7 - Wiek w sekundach
+Poproś użytkownika o podanie wieku w latach i oblicz, ile to sekund (zakładając rok = 365 dni).
+
+**Przykład:**
+```
+Ile masz lat? 25
+Masz około 788400000 sekund!
+```
+---
+
+## Zadanie 8 - Pole prostokąta
+Napisz program, który poprosi o długość i szerokość prostokąta, a następnie obliczy i wyświetli jego pole.
+
+**Przykład:**
+```
+Podaj długość: 5
+Podaj szerokość: 3
+Pole prostokąta wynosi: 15
+```
+
+---
+
+
+## Zadanie 9 - Większa liczba
+Poproś użytkownika o podanie dwóch liczb i wyświetl, która z nich jest większa.
+
+**Przykład:**
+```
+Podaj pierwszą liczbę: 10
+Podaj drugą liczbę: 20
+Większa liczba to: 20
+```
+---
+
+## Zadanie 10 - Długość imienia
+Poproś użytkownika o imię i wyświetl, ile ma ono znaków.
+
+**Przykład:**
+```
+Jak masz na imię? Kuba
+Twoje imię ma 4 litery.
+```
+
+---
 
